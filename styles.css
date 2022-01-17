@@ -1,0 +1,173 @@
+/* CSS */
+
+* {
+    margin: 0;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+button {
+    border-radius: 10%;
+    padding: 5px 20px;
+    margin: 20px 0px;
+    color: white;
+    border-style: solid;
+    transition-duration: 0.4s;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882F6;
+    border-color: white;
+}
+
+.secondary-text {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 100px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8
+}
+
+.awesome {
+    font-size: 70px;
+    color:pink;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display:flex;
+    height: 300px;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.cards {
+    display: flex;
+    height: 200px;
+    justify-content:center;
+    padding: 50px 0px;
+    gap: 30px;
+}
+
+.card {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.section {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    align-items:middle;
+    padding: 50px 200px;
+    justify-content:center;
+    background-color: lightgray;
+}
+
+h3 {
+    text-align: right;
+    padding: 10px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 25px;
+    gap: 100px;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.cta-content {
+    align-items:middle;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up1 {
+    background-color: #3882F6;
+    border-color: #3882F6;
+}
+
+.sign-up2 {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+h5 {
+    font-size: 24px;
+}
